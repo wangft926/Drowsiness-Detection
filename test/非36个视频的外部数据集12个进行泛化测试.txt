@@ -1,0 +1,51 @@
+D:\anaconda3\envs\retinaface-pytorch\python.exe G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\test\valid_yawn-260111.py 
+D:\anaconda3\envs\retinaface-pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+D:\anaconda3\envs\retinaface-pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V3_Small_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V3_Small_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Using device: cuda
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768136299.593961   25172 face_landmarker_graph.cc:174] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1768136299.608484   21128 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768136299.625958   24188 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+正在处理: 12-FemaleNoGlasses-Normal.avi:   0%|          | 0/12 [00:00<?, ?个/s]视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\12-FemaleNoGlasses-Normal.avi, 总帧数: 646, 帧率: 29, 视频时长: 22.28 秒
+完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\12-FemaleNoGlasses-Normal.avi (646/646 帧)
+正在处理: 12-FemaleNoGlasses-Talking.avi:   8%|▊         | 1/12 [00:29<05:26, 29.72s/个]视频 12-FemaleNoGlasses-Normal.avi 的准确率: 0.9702 (618/637)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\12-FemaleNoGlasses-Talking.avi, 总帧数: 893, 帧率: 29, 视频时长: 30.79 秒
+完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\12-FemaleNoGlasses-Talking.avi (893/893 帧)
+视频 12-FemaleNoGlasses-Talking.avi 的准确率: 0.9524 (841/883)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\12-FemaleNoGlasses-Yawning.avi, 总帧数: 836, 帧率: 29, 视频时长: 28.83 秒
+正在处理: 12-FemaleNoGlasses-Yawning.avi:  17%|█▋        | 2/12 [01:19<06:54, 41.47s/个]完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\12-FemaleNoGlasses-Yawning.avi (836/836 帧)
+正在处理: 13-FemaleNoGlasses-Normal.avi:  25%|██▌       | 3/12 [02:34<08:29, 56.61s/个]视频 12-FemaleNoGlasses-Yawning.avi 的准确率: 0.8162 (675/827)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\13-FemaleNoGlasses-Normal.avi, 总帧数: 780, 帧率: 29, 视频时长: 26.90 秒
+完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\13-FemaleNoGlasses-Normal.avi (780/780 帧)
+视频 13-FemaleNoGlasses-Normal.avi 的准确率: 0.9370 (699/746)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\13-FemaleNoGlasses-Talking.avi, 总帧数: 897, 帧率: 29, 视频时长: 30.93 秒
+正在处理: 13-FemaleNoGlasses-Talking.avi:  33%|███▎      | 4/12 [04:29<10:38, 79.77s/个]完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\13-FemaleNoGlasses-Talking.avi (897/897 帧)
+视频 13-FemaleNoGlasses-Talking.avi 的准确率: 0.8530 (731/857)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\13-FemaleNoGlasses-Yawning.avi, 总帧数: 647, 帧率: 29, 视频时长: 22.31 秒
+正在处理: 13-FemaleNoGlasses-Yawning.avi:  42%|████▏     | 5/12 [06:01<09:50, 84.31s/个]完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\13-FemaleNoGlasses-Yawning.avi (647/647 帧)
+视频 13-FemaleNoGlasses-Yawning.avi 的准确率: 0.7437 (444/597)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\17-FemaleNoGlasses-Normal.avi, 总帧数: 635, 帧率: 29, 视频时长: 21.90 秒
+正在处理: 17-FemaleNoGlasses-Normal.avi:  50%|█████     | 6/12 [07:13<08:00, 80.08s/个]完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\17-FemaleNoGlasses-Normal.avi (635/635 帧)
+正在处理: 17-FemaleNoGlasses-Talking.avi:  58%|█████▊    | 7/12 [08:23<06:24, 76.83s/个]视频 17-FemaleNoGlasses-Normal.avi 的准确率: 0.9105 (570/626)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\17-FemaleNoGlasses-Talking.avi, 总帧数: 903, 帧率: 29, 视频时长: 31.14 秒
+完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\17-FemaleNoGlasses-Talking.avi (903/903 帧)
+正在处理: 17-FemaleNoGlasses-Yawning.avi:  67%|██████▋   | 8/12 [10:07<05:41, 85.45s/个]视频 17-FemaleNoGlasses-Talking.avi 的准确率: 0.8456 (756/894)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\17-FemaleNoGlasses-Yawning.avi, 总帧数: 585, 帧率: 29, 视频时长: 20.17 秒
+完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\17-FemaleNoGlasses-Yawning.avi (585/585 帧)
+正在处理: 9-MaleNoGlasses-Normal.avi:  75%|███████▌  | 9/12 [11:02<03:48, 76.04s/个]视频 17-FemaleNoGlasses-Yawning.avi 的准确率: 0.8333 (480/576)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\9-MaleNoGlasses-Normal.avi, 总帧数: 737, 帧率: 29, 视频时长: 25.41 秒
+完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\9-MaleNoGlasses-Normal.avi (737/737 帧)
+视频 9-MaleNoGlasses-Normal.avi 的准确率: 0.9341 (680/728)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\9-MaleNoGlasses-Talking.avi, 总帧数: 1124, 帧率: 29, 视频时长: 38.76 秒
+正在处理: 9-MaleNoGlasses-Talking.avi:  83%|████████▎ | 10/12 [12:46<02:49, 84.53s/个]完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\9-MaleNoGlasses-Talking.avi (1124/1124 帧)
+正在处理: 9-MaleNoGlasses-Yawning.avi:  92%|█████████▏| 11/12 [15:05<01:41, 101.23s/个]视频 9-MaleNoGlasses-Talking.avi 的准确率: 0.9937 (1103/1110)
+视频名称：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\9-MaleNoGlasses-Yawning.avi, 总帧数: 737, 帧率: 29, 视频时长: 25.41 秒
+完成处理：G:\A_wangft_bs\Drowsiness-Detection-using-CNN-and-LSTM-main\YawDD非36个的外部验证数据集\9-MaleNoGlasses-Yawning.avi (737/737 帧)
+正在处理: 9-MaleNoGlasses-Yawning.avi: 100%|██████████| 12/12 [16:20<00:00, 81.69s/个]
+视频 9-MaleNoGlasses-Yawning.avi 的准确率: 0.9712 (707/728)
+[{'video_name': '12-FemaleNoGlasses-Normal.avi', 'accuracy': 0.9701726844583988, 'total_frames': 637, 'correct_predictions': 618}, {'video_name': '12-FemaleNoGlasses-Talking.avi', 'accuracy': 0.9524348810872028, 'total_frames': 883, 'correct_predictions': 841}, {'video_name': '12-FemaleNoGlasses-Yawning.avi', 'accuracy': 0.8162031438935913, 'total_frames': 827, 'correct_predictions': 675}, {'video_name': '13-FemaleNoGlasses-Normal.avi', 'accuracy': 0.9369973190348525, 'total_frames': 746, 'correct_predictions': 699}, {'video_name': '13-FemaleNoGlasses-Talking.avi', 'accuracy': 0.852975495915986, 'total_frames': 857, 'correct_predictions': 731}, {'video_name': '13-FemaleNoGlasses-Yawning.avi', 'accuracy': 0.7437185929648241, 'total_frames': 597, 'correct_predictions': 444}, {'video_name': '17-FemaleNoGlasses-Normal.avi', 'accuracy': 0.9105431309904153, 'total_frames': 626, 'correct_predictions': 570}, {'video_name': '17-FemaleNoGlasses-Talking.avi', 'accuracy': 0.8456375838926175, 'total_frames': 894, 'correct_predictions': 756}, {'video_name': '17-FemaleNoGlasses-Yawning.avi', 'accuracy': 0.8333333333333334, 'total_frames': 576, 'correct_predictions': 480}, {'video_name': '9-MaleNoGlasses-Normal.avi', 'accuracy': 0.9340659340659341, 'total_frames': 728, 'correct_predictions': 680}, {'video_name': '9-MaleNoGlasses-Talking.avi', 'accuracy': 0.9936936936936936, 'total_frames': 1110, 'correct_predictions': 1103}, {'video_name': '9-MaleNoGlasses-Yawning.avi', 'accuracy': 0.9711538461538461, 'total_frames': 728, 'correct_predictions': 707}]
+
+Process finished with exit code 0
